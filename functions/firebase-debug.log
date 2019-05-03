@@ -1,0 +1,29 @@
+[debug] [2019-04-30T01:16:57.635Z] ----------------------------------------------------------------------
+[debug] [2019-04-30T01:16:57.636Z] Command:       D:\Programas\Nodejs\node.exe C:\Users\Adolfo Amaris\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-04-30T01:16:57.637Z] CLI Version:   6.7.1
+[debug] [2019-04-30T01:16:57.637Z] Platform:      win32
+[debug] [2019-04-30T01:16:57.637Z] Node Version:  v10.15.1
+[debug] [2019-04-30T01:16:57.638Z] Time:          Mon Apr 29 2019 20:16:57 GMT-0500 (GMT-05:00)
+[debug] [2019-04-30T01:16:57.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-30T01:16:57.645Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-30T01:16:57.645Z] > authorizing via signed-in user
+[debug] [2019-04-30T01:16:57.646Z] [iam] checking project instacool-f8a39 for permissions ["firebase.projects.get"]
+[debug] [2019-04-30T01:16:57.647Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/instacool-f8a39:testIamPermissions  
+
+[debug] [2019-04-30T01:16:58.298Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-30T01:16:58.299Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/instacool-f8a39  
+ 
+[debug] [2019-04-30T01:16:58.858Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Programas\wamp64\www\curso-react\instacool'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-30T01:17:03.420Z] Fetching environment
+[debug] [2019-04-30T01:17:03.426Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1019649499717:getServerAppConfig  
+ 
+[debug] [2019-04-30T01:17:03.828Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-30T01:17:03.828Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-30T01:17:06.386Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[info] Shutting down...
